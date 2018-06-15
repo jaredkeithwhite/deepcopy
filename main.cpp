@@ -56,7 +56,7 @@ bool validate_list(node* rhs, node* lhs) {
 }
 
 int main() {
-    //srand(time(NULL));
+    srand(time(nullptr));
 
     int listLength = 25000;
     node* list = create_random_list(listLength);
